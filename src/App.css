@@ -1,7 +1,6 @@
 .app {
     background-color: #073138;
     color: white;
-    height: 100%;
 }
 .app__resident {
     display: flex;
