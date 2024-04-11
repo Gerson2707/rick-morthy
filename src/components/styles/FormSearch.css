@@ -1,0 +1,30 @@
+.form {
+    display: block;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+.form__input {
+    display: block;
+    height: 2em;
+    padding: .4em 1em;
+    border-radius: .5em 0 0 .5em;
+    border: none;
+    font-size: inherit;
+}
+.form__btn{
+    display: block;
+    height: 2.6em;
+    padding: .3em 1em;
+    border: none;
+    width: 8em;
+    border-radius: 0 .5em .5em 0;
+    background-color: rgba(48, 125, 48, 0.813);
+    color: white;
+    font-weight: 700;
+    &:hover{
+        filter: brightness(1.2);
+    }
+}

@@ -1,0 +1,34 @@
+.location {
+    width: 40%;
+    min-width: 500px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 1.5em 2em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+.location__name {
+    text-align: center;
+    color: rgb(38, 164, 38);
+    font-size: 1.8rem;
+    margin-bottom: .8em;
+}
+.location__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.location__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+.location__label {
+    font-weight: 600;
+}
+.location__value {
+    color: #999;
+    font-weight: 400;
+}
