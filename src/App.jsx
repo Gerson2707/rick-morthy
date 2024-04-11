@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__title">
-        <img src="public/banner-rickandmorty.png" alt="" className="app__image"/>
+        <img src="/banner-rickandmorty.png" alt="" className="app__image"/>
       </div>
       <FormSearch setLocationSelect={setLocationSelect} />
 
